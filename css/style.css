@@ -1,1 +1,16 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
 
+body{
+  margin: 0;
+  font-family: 'Noto Sans 3P', sans-serif'
+}
+
+img{
+   max:width: 100%;
+   display: block;
+   
+}
