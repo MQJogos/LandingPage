@@ -200,4 +200,21 @@ img{
     align-items: center;
     justify-content: center;
    }
+  .home_img{
+    order: 1;
+    width: 375px;
+    height: 289px;
+  }
+  .home_img img{
+    width: 375px;
+  }
 }
+
+@media screen and (min-width:1024px){
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
