@@ -1,1 +1,22 @@
+/*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:wght@500&display=swap&&effect=shadow-multiple');
+
+/*===== VARIABLES CSS =====*/
+:root{
+  --header-height: 3rem;
+
+/*===== Colors =====*/
+--firts-color:#FCA4A6;
+--firts-color-dark:#C1576A;
+--firts-color-darken:#A8E51;
+--white-color:#FCF8F8;
+
+/*===== Font and typography =====*/
+--body-font: 'Poppins', sans-serif;
+--big-font-size: 2.5rem;
+--normal-font-size: .938rem;
+/*===== z index =====*/
+}
+/*===== BASE =====*/
+
+/*===== LAYOUT =====*/
