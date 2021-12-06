@@ -216,5 +216,16 @@ img{
     margin-right: auto;
 
   }
+  .home_container{
+     justify-content: initial;
+     column-gap: 4.5rem;
+  }
+  .home_img{
+    width: 604px;
+    height: 466px;
+  }
+  .home_img img{
+    width: 604px;
+  }
 }
 
