@@ -14,7 +14,9 @@ closeMenu.addEventListener('click', ()=>{
 document.addEventListener('mousemove', move)
 
 function move(e){
-    this.querySelectorAll('.move')
+    this.querySelectorAll('.move').forEach(layer =>{
+         const speed = layer.getAttribute('data-speed')
+    })
 }
 /*===== GSAP ANIMATION =====*/
 
