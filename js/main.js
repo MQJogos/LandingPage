@@ -10,8 +10,12 @@ toggleMenu.addEventListener('click', ()=>{
 closeMenu.addEventListener('click', ()=>{
     navMenu.classList.remove('show')
 })
-/*===== MOUSEMOVE =====*/
+/*===== MOUSEMOVE HOME IMG=====*/
+document.addEventListener('mousemove', move)
 
+function move(e){
+    this.querySelectorAll('.move')
+}
 /*===== GSAP ANIMATION =====*/
 
 //NAV
