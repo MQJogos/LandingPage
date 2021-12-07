@@ -27,7 +27,7 @@ function move(e){
 /*===== GSAP ANIMATION =====*/
 
 //NAV
-gsap.from('.nav_logo',{opacity:0, duration:1, delay: 2, y:10})
-gsap.from('.nav_logo',{opacity:0, duration:1, delay: 2, y:10})
+gsap.from('.nav_logo, .nav_toggle',{opacity:0, duration:1, delay: 2, y:10})
+gsap.from('.nav_item',{opacity:0, duration:1, delay: 2.1, y:30, stagger: 0.2})
 //HOME
-gsap.from('.nav_logo',{opacity:0, duration:1, delay: 2, y:10})
+gsap.from('.home_title',{opacity:0, duration:1, delay: 1.6, y:30, stagger:0.2})
