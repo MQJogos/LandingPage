@@ -112,7 +112,7 @@ img{
 }
 
 .nav_link:hover{
-  color: var(--firts-color-dark);
+  color: var(--first-color-dark);
 }
 
 .nav_toggle{
@@ -126,7 +126,7 @@ img{
 
 /*=====  HOME  =====*/
 .home{
-  background-color: var(--firts-color);
+  background-color: var(--first-color);
   overflow; hidden;
 }
 
