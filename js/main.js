@@ -27,5 +27,7 @@ function move(e){
 /*===== GSAP ANIMATION =====*/
 
 //NAV
-
+gsap.from('.nav_logo',{opacity:0, duration:1, delay: 2, y:10})
+gsap.from('.nav_logo',{opacity:0, duration:1, delay: 2, y:10})
 //HOME
+gsap.from('.nav_logo',{opacity:0, duration:1, delay: 2, y:10})
